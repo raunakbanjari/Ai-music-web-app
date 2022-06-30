@@ -7,3 +7,18 @@
     font-size: 15px;
     color: black;
 }
+
+canvas{
+    margin-top: 80px;
+    border: 5px 5px solid black;
+    box-shadow: 1px 1px 38px black;
+    animation-name: ni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 75px;    
+}
+
+@keyframes ni{
+    from{box-shadow: 1px 1px 38px black;}
+    to{box-shadow: 1px 1px 38px red;}
+}
