@@ -35,7 +35,6 @@ function draw(){
         happy.stop();
         if(harry_song == false){
             harry.play();
-            harry.loop()
             console.log("playing harry potter theme song");
             document.getElementById("song").innerHTML = "SONG NAME : HARRY POTTER THEME SONG";
         }
